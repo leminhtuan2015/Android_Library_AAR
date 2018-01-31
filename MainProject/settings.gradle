@@ -1,0 +1,6 @@
+include ':app'
+include ':testaar'
+include ':testaar_1'
+
+project(':testaar').projectDir = new File(settingsDir, '../testaar')
+project(':testaar_1').projectDir = new File(settingsDir, '../testaar_1')
